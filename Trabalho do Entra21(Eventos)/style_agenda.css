@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("imagens/agendaedit.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 8vh;
+    margin-left: 8vh;
+    color: white;
+}
+
+.opcoes ul{
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.opcoes a {
+    text-decoration: none;
+    color: white;
+    transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.opcoes a:hover {
+    letter-spacing: 1.5px;
+    font-size: 19px; 
+}
+
+.redes {
+    align-items: center;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.redes img {
+    width: 30px;
+    border-radius: 300px;
+}
+
+.redes a {
+    transition: all 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.redes a:hover {
+    transform: scale(1.40, 1.40);
+}
+
+.ag{
+    margin-top: 5vh;
+    color: rgb(147, 169, 184);
+    font-size: 25px;
+    margin-bottom: 3vh;
+}
+
+.senac{
+    color: rgb(250, 253, 254);
+    display: inline-flex;
+    width: 80%;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.senac h3 {
+    font-size: 20px;
+}
+
+.local{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 18px;
+    line-height: 12px;
+    
+}
+
+.cidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.teste{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 20px;
+    line-height: 12px;
+    margin-bottom: 4px;
+}
+
+hr{
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    background: rgb(0,0,0);
+    margin-top: 20vh;
+}
+
+.titulo {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 3vh;
+}
+
+.image {
+    display: inline-flex;
+    gap: 10vh;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.image p {
+    font-weight: 400;
+    font-size: 2.7vh;
+    margin-bottom: 5px;
+}
+
+.memoji {
+    width: 18.5vh;
+    transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.memoji:hover {
+    transform: scale(1.10, 1.10);
+}
+
+.image a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    font-size: 39px;
+    transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.image a:hover {
+    font-size: 45px;
+    letter-spacing: 2.4px;
+    color: #0e76a8;
+}
